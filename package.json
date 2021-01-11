@@ -5,14 +5,14 @@
   
   "husky":{
     "hooks": {
-        "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
     "src/**": [
-        "prettier --config .prettierrc --write",
-        "eslint --fix",
-        "git add"
+      "prettier --config .prettierrc --write",
+      "eslint --fix",
+      "git add"
     ]
   },
   "scripts": {
